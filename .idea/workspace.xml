@@ -1,67 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="afbe0e35-19bd-4108-bade-f8bb727c25f4" name="Default Changelist" comment="package name changed because conflicting with another one">
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/reply/cache-v2-e113e89f40190177bdf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/reply/cmakeFiles-v1-5f5a09a7211d5b9fe401.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/reply/codemodel-v2-42f6108c25163265c237.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/reply/index-2022-07-04T15-10-45-0805.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/.cmake/api/v1/reply/target-native-lib-RelWithDebInfo-e7b0202eb73dc4b96677.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/android_gradle_build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/compile_commands.json.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/metadata_generation_command.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/.cxx/RelWithDebInfo/h593e1z7/x86/prefab_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/bavagnoli/flutteropengl/BmpManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/bavagnoli/flutteropengl/BmpManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/com/bavagnoli/flutteropengl_example/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/java/com/bavagnoli/flutteropengl_example/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutteropengl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutteropengl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutteropengl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutteropengl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.dart_tool/" />
-    <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/.pub/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/example/.pub/" />
-    <ignored path="$PROJECT_DIR$/example/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/flutteropengl.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#273#461#0" expanded="true" />
-                <element signature="e#488#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="e#565#616#0" expanded="true" />
-                <element signature="e#668#1359#0" expanded="true" />
-                <element signature="e#1387#3790#0" expanded="true" />
-                <element signature="e#3821#3909#0" expanded="true" />
-                <element signature="e#3933#3997#0" expanded="true" />
-                <element signature="e#4038#4161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +75,7 @@
     <option name="width" value="3233" />
     <option name="height" value="1394" />
   </component>
+  <component name="ProjectId" id="2BU0Mr56fCEITMOC5ZcjdphkVbA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
@@ -208,24 +200,22 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../opengl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/android" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

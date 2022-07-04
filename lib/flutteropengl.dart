@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class Flutteropengl {
-  static const MethodChannel _channel =
-      const MethodChannel('flutteropengl');
+  static const MethodChannel _channel = const MethodChannel('flutteropengl');
 
   int textureId;
 

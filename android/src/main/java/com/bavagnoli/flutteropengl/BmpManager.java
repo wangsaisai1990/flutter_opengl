@@ -33,7 +33,7 @@ public class BmpManager {
 
     /**
      * Inizialized when the app starts in FlutteropenglPlugin.registerWith()
-     * @param activity
+     * @param registrar
      */
     public static void setAssetsManager(Registrar registrar) {
         mRegistrar = registrar;

@@ -1,0 +1,82 @@
+ninja: Entering directory `D:\flutter\opengl\flutter_opengl\android\.cxx\Debug\4j5d552t\armeabi-v7a'
+[1/10] Building CXX object CMakeFiles/native-lib.dir/cpp/ndk/texture.cpp.o
+[2/10] Building CXX object CMakeFiles/native-lib.dir/cpp/RendererController.cpp.o
+../../../../cpp/RendererController.cpp:115:9: warning: delete called on 'Shader' that is abstract but has non-virtual destructor [-Wdelete-abstract-non-virtual-dtor]
+        delete shader;
+        ^
+1 warning generated.
+[3/10] Building CXX object CMakeFiles/native-lib.dir/cpp/shaders/Shader1.cpp.o
+[4/10] Building CXX object CMakeFiles/native-lib.dir/cpp/shaders/Cube.cpp.o
+[5/10] Building CXX object CMakeFiles/native-lib.dir/cpp/ndk/native-lib.cpp.o
+[6/10] Building CXX object CMakeFiles/native-lib.dir/cpp/shaders/Shader3.cpp.o
+[7/10] Building CXX object CMakeFiles/native-lib.dir/cpp/shaders/Shader2.cpp.o
+[8/10] Building CXX object CMakeFiles/native-lib.dir/cpp/Shader.cpp.o
+[9/10] Building CXX object CMakeFiles/native-lib.dir/cpp/renderer.cpp.o
+../../../../cpp/renderer.cpp:103:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:115:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:130:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:186:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:216:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:243:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:254:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return -1;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:260:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return false;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:266:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return false;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:276:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return 0;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:282:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return 0;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:290:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL || isDrawing) return 0;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:308:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return false;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:317:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:328:13: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+        if (this == NULL) {
+            ^~~~    ~~~~
+../../../../cpp/renderer.cpp:356:117: warning: format specifies type 'int' but the argument has type 'EGLContext' (aka 'void *') [-Wformat]
+                        LOGE(LOG_TAG_RENDERER, "MSG_INIT_SHADER Cannot initialize shader  context: %d  window: %d", _context, _window);
+                                                                                                   ~~               ^~~~~~~~
+../../../../cpp/ndk/common.hpp:7:70: note: expanded from macro 'LOGE'
+#define  LOGE(TAG, ...)  __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__)
+                                                                     ^~~~~~~~~~~
+../../../../cpp/renderer.cpp:356:127: warning: format specifies type 'int' but the argument has type 'ANativeWindow *' [-Wformat]
+                        LOGE(LOG_TAG_RENDERER, "MSG_INIT_SHADER Cannot initialize shader  context: %d  window: %d", _context, _window);
+                                                                                                               ~~             ^~~~~~~
+../../../../cpp/ndk/common.hpp:7:70: note: expanded from macro 'LOGE'
+#define  LOGE(TAG, ...)  __android_log_print(ANDROID_LOG_ERROR, TAG, __VA_ARGS__)
+                                                                     ^~~~~~~~~~~
+../../../../cpp/renderer.cpp:419:9: warning: 'this' pointer cannot be null in well-defined C++ code; comparison may be assumed to always evaluate to false [-Wtautological-undefined-compare]
+    if (this == NULL) return false;
+        ^~~~    ~~~~
+../../../../cpp/renderer.cpp:518:21: warning: format specifies type 'int' but the argument has type 'EGLContext' (aka 'void *') [-Wformat]
+                    _context, _window, width, height);
+                    ^~~~~~~~
+../../../../cpp/ndk/common.hpp:10:70: note: expanded from macro 'LOGI'
+#define  LOGI(TAG, ...)  __android_log_print(ANDROID_LOG_INFO,  TAG, __VA_ARGS__)
+                                                                     ^~~~~~~~~~~
+19 warnings generated.
+[10/10] Linking CXX shared library D:\flutter\opengl\flutter_opengl\example\build\flutteropengl\intermediates\cxx\Debug\4j5d552t\obj\armeabi-v7a\libnative-lib.so

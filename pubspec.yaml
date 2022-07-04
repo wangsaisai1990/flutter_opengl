@@ -4,7 +4,6 @@
 name: flutteropengl
 description: An early stage of Flutter OpenGL plugin. Only for Android for now.
 version: 0.0.3
-author: Marco Bavagnoli <marcobavagnolidev@gmail.com>
 homepage: https://github.com/alnitak/flutter_opengl
 
 environment:
