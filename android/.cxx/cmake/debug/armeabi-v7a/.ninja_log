@@ -1,0 +1,13 @@
+# ninja log v5
+31	1103	678733263	CMakeFiles/native-lib.dir/cpp/ndk/texture.cpp.o	c88d22f35092a600
+139	2449	678733264	CMakeFiles/native-lib.dir/cpp/shaders/Shader3.cpp.o	86a375e0ceecb1ba
+79	2453	678733264	CMakeFiles/native-lib.dir/cpp/shaders/Shader1.cpp.o	f5c940e26db09902
+21	2455	678733264	CMakeFiles/native-lib.dir/cpp/RendererController.cpp.o	f18cb9331cd2d550
+112	2488	678733264	CMakeFiles/native-lib.dir/cpp/shaders/Shader2.cpp.o	c86efbc8f53be50f
+47	2492	678733264	CMakeFiles/native-lib.dir/cpp/Shader.cpp.o	cc201d6e9c888fe2
+69	2499	678733264	CMakeFiles/native-lib.dir/cpp/shaders/Cube.cpp.o	5e8aa83e1812ad20
+1	2539	678733264	CMakeFiles/native-lib.dir/cpp/ndk/native-lib.cpp.o	91d090e9bf8d2078
+92	2786	678733265	CMakeFiles/native-lib.dir/cpp/renderer.cpp.o	4b29eed862999da6
+2786	3320	678733265	D:/flutter/opengl/flutter_opengl/example/build/flutteropengl/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	f7bd5b7a9221a0b1
+195	6050	678821121	CMakeFiles/native-lib.dir/cpp/ndk/texture.cpp.o	c88d22f35092a600
+6050	9683	678821124	D:/flutter/opengl/flutter_opengl/example/build/flutteropengl/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	f7bd5b7a9221a0b1

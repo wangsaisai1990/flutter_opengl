@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
 
-import 'package:flutter/services.dart';
 import 'package:flutteropengl/flutteropengl.dart';
 
 void main() => runApp(MyApp());
@@ -23,6 +21,7 @@ class _MyAppState extends State<MyApp> {
 
     notes = "";
     initializeNDKController();
+    print("初始化完成");
   }
 
   @override

@@ -1,0 +1,90 @@
+{
+  "stringTable": {
+    "0": "D:/flutter/opengl/flutter_opengl/android/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -std=c++11 -fexceptions -frtti -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "D:\\flutter\\opengl\\flutter_opengl\\android\\CMakeLists.txt",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\armeabi-v7a\" native-lib",
+      "buildType": "debug",
+      "toolchain": "1623382362",
+      "abi": "armeabi-v7a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\ndk\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\ndk\\texture.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\RendererController.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\renderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\Shader.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Cube.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader1.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader2.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader3.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\ndk\\common.hpp",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "D:\\flutter\\opengl\\flutter_opengl\\example\\build\\flutteropengl\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1623382362": {
+      "cppCompilerExecutable": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

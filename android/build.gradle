@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
 
@@ -35,7 +35,7 @@ android {
                 // using clang
                 arguments '-DBUILD_TESTING=OFF', '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=c++_static'
                 cppFlags "-std=c++11 -fexceptions -frtti" //-stdlib=libstdc++"
-                version "3.10.2"
+                version "3.17.2"
             }
         }
     }
@@ -54,12 +54,11 @@ android {
         }
 
         debug {
-//            ndk {
+        //    ndk {
 ////                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64'
-//                abiFilters 'armeabi-v7a'
-//            }
+            //    abiFilters 'armeabi-v7a'
+        //    }
         }
     }
-    ndkVersion '24.0.8215888'
 
 }

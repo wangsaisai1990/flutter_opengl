@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "D:\\flutter\\opengl\\flutter_opengl\\android\\CMakeLists.txt",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\android.toolchain.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\platforms.cmake",
+    "D:\\sdk\\ndk\\24.0.8215888\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\x86_64\" native-lib",
+      "abi": "x86_64",
+      "output": "D:\\flutter\\opengl\\flutter_opengl\\example\\build\\flutteropengl\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
