@@ -1,3 +1,4 @@
+package com.bavagnoli.flutteropengl;
 // Copyright 2019 Marco Bavagnoli <marco.bavagnoli@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,14 +13,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.bavagnoli.flutteropengl;
-
 import android.graphics.SurfaceTexture;
 import android.util.Log;
 import android.util.LongSparseArray;
 
+import androidx.annotation.NonNull;
+
 import java.util.Map;
 
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
@@ -28,23 +30,11 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 import io.flutter.view.TextureRegistry;
 
 /** FlutteropenglPlugin */
-public class FlutteropenglPlugin implements MethodCallHandler {
+public class FlutteropenglPlugin implements FlutterPlugin,MethodCallHandler {
   private static String TAG = FlutteropenglPlugin.class.getSimpleName();
-  private final TextureRegistry textures;
+  private TextureRegistry textures;
   private LongSparseArray<OpenGLNDKController> rendersNDK = new LongSparseArray<>();
-
-  public FlutteropenglPlugin(TextureRegistry textures) {
-    this.textures = textures;
-  }
-  
-  /** Plugin registration. */
-  public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutteropengl");
-    channel.setMethodCallHandler(new FlutteropenglPlugin(registrar.textures()));
-
-    // initialize BmpManager's AssetManager for future textures use
-    BmpManager.setAssetsManager(registrar);
-  }
+  private static MethodChannel channel;
 
   private float getFloat(Object obj) {
     if (obj instanceof Float)
@@ -118,5 +108,23 @@ public class FlutteropenglPlugin implements MethodCallHandler {
       default:
         result.notImplemented();
     }
+  }
+
+  @Override
+  public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
+    if(this.textures==null){
+      this.textures= binding.getTextureRegistry();
+    }
+    Log.e("onAttachedToEngine", "onAttachedToEngine");
+    channel = new MethodChannel(binding.getBinaryMessenger(), "flutteropengl");
+    channel.setMethodCallHandler(this);
+
+    // initialize BmpManager's AssetManager for future textures use
+    BmpManager.setAssetsManager(binding);
+  }
+
+  @Override
+  public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
+
   }
 }

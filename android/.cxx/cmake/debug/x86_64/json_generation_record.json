@@ -31,6 +31,12 @@
   },
   {
     "level": "INFO",
+    "message": "CMake \u00273.22.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "D:\\flutter\\opengl\\flutter_opengl\\android\\CMakeLists.txt",
+    "tag": "debug|x86_64"
+  },
+  {
+    "level": "INFO",
     "message": "JSON \u0027D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\cmake\\debug\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
     "file": "D:\\flutter\\opengl\\flutter_opengl\\android\\CMakeLists.txt",
     "tag": "debug|x86_64"

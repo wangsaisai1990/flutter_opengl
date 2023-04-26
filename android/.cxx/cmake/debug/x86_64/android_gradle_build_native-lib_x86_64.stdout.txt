@@ -1,2 +1,2 @@
 ninja: Entering directory `D:\flutter\opengl\flutter_opengl\android\.cxx\cmake\debug\x86_64'
-[1/1] Linking CXX shared library D:\flutter\opengl\flutter_opengl\example\build\flutteropengl\intermediates\cmake\debug\obj\x86_64\libnative-lib.so
+ninja: no work to do.

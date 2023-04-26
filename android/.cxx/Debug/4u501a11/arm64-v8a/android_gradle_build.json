@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "D:\\flutter\\opengl\\flutter_opengl\\android\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\Debug\\4u501a11\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\wss\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\flutter\\opengl\\flutter_opengl\\android\\.cxx\\Debug\\4u501a11\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "output": "D:\\flutter\\opengl\\flutter_opengl\\example\\build\\flutteropengl\\intermediates\\cxx\\Debug\\4u501a11\\obj\\arm64-v8a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

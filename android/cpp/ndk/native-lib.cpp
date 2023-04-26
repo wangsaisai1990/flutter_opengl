@@ -53,7 +53,7 @@ extern "C" {
 ////////////////////////////////
 /// renderer
 ////////////////////////////////
-    void JAVA(nativeSetSurface)(JNIEnv *jenv, jobject obj,
+    void JAVA(nativeSetSurface)(JNIEnv *jenv, jclass obj,
                                 jobject surface,
                                 jint func,
                                 jstring name, // MAX 50 chars
@@ -78,7 +78,7 @@ extern "C" {
 
     }
 
-    void JAVA(nativeOnStop)(JNIEnv *jenv, jobject obj) {
+    void JAVA(nativeOnStop)(JNIEnv *jenv, jclass obj) {
         if (rendererController == NULL) return;
         if (DEBUG_NATIVE_LIB) LOGI(LOG_TAG_NATIVELIB, "nativeOnStop1");
         rendererController->nativeOnStop();
@@ -89,26 +89,26 @@ extern "C" {
     }
 
 
-    int JAVA(nativeSurfaceIsContextValid)(JNIEnv *jenv, jobject obj) {
+    int JAVA(nativeSurfaceIsContextValid)(JNIEnv *jenv, jclass obj) {
         if (rendererController == NULL) return -1;
         if (rendererController->renderer == NULL) return -1;
         return rendererController->renderer->isContextValid();
     }
 
-    bool JAVA(nativeSurfaceIsLoopingRunning)(JNIEnv *jenv, jobject obj) {
+    jboolean JAVA(nativeSurfaceIsLoopingRunning)(JNIEnv *jenv, jclass obj) {
         if (rendererController == NULL) return false;
         if (rendererController->renderer == NULL) return false;
         return rendererController->renderer->isLoopingRunning();
     }
 
-    bool JAVA(nativeSurfaceIsThreadRunning)(JNIEnv *jenv, jobject obj) {
+    jboolean JAVA(nativeSurfaceIsThreadRunning)(JNIEnv *jenv, jclass obj) {
         if (rendererController == NULL) return false;
         if (rendererController->renderer == NULL) return false;
         return rendererController->renderer->isThreadRunning();
     }
 
 
-    void JAVA(nativeSurfaceSetClearColor)(JNIEnv *jenv, jobject obj,
+    void JAVA(nativeSurfaceSetClearColor)(JNIEnv *jenv, jclass obj,
                                           jint clearR, jint clearG, jint clearB,
                                           jint clearA) {
         if (rendererController == NULL) return;

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\ndk\\native-lib.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\ndk\\native-lib.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/ndk/native-lib.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\ndk\\texture.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\ndk\\texture.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/ndk/texture.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\RendererController.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\RendererController.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/RendererController.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\renderer.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\renderer.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/renderer.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\Shader.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\Shader.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/Shader.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\shaders\\Cube.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Cube.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/shaders/Cube.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\shaders\\Shader1.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader1.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/shaders/Shader1.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\shaders\\Shader2.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader2.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/shaders/Shader2.cpp"
+},
+{
+  "directory": "D:/flutter/opengl/flutter_opengl/android/.cxx/Debug/4u501a11/armeabi-v7a",
+  "command": "D:\\sdk\\ndk\\24.0.8215888\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_lib_EXPORTS -I../../../../src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -fexceptions -frtti -fno-limit-debug-info  -fPIC -o CMakeFiles\\native-lib.dir\\cpp\\shaders\\Shader3.cpp.o -c D:\\flutter\\opengl\\flutter_opengl\\android\\cpp\\shaders\\Shader3.cpp",
+  "file": "D:/flutter/opengl/flutter_opengl/android/cpp/shaders/Shader3.cpp"
+}
+]

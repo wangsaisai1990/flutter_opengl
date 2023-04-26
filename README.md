@@ -14,7 +14,6 @@ This is an early stage of a plugin for Flutter to let the developers to use an O
 This is not a binding to let the devs to write OpenGL code within Flutter,
 but lets to write shader and drawing frame functions in C/C++ code.
 The plugin is only available for Android OS, looking forward for someone to make it cross-platform!
-  
 The example provides 4 drawing shaders classes. They are subclass of `Shader.cpp`.
 Each of them need an `initShader(void *args)` and a `drawFrame(void *args)` functions which are used by the
 renderer.cpp engine at creation time. `RendererController::nativeSetSurface()` has the task to crate

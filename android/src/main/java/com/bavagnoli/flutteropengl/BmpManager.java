@@ -22,36 +22,53 @@ import android.util.Log;
 
 import java.io.IOException;
 
+import io.flutter.FlutterInjector;
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
+import io.flutter.view.TextureRegistry;
 
 /**
+ *
+ *
+ *
  * Used by NDK code to read assets images
  */
 public class BmpManager {
     static String TAG = BmpManager.class.getSimpleName();
-    static private Registrar mRegistrar;
-
+    static private TextureRegistry  mRegistrar;
+    static private FlutterPlugin.FlutterPluginBinding binding;
     /**
      * Inizialized when the app starts in FlutteropenglPlugin.registerWith()
      * @param registrar
      */
-    public static void setAssetsManager(Registrar registrar) {
-        mRegistrar = registrar;
+    public static void setAssetsManager(Registrar  registrar) {
+        mRegistrar = (TextureRegistry) registrar;
     }
+
+    /**
+     * Inizialized when the app starts in FlutteropenglPlugin.registerWith()
+     * @param flutterPluginBinding
+     */
+    public static void setAssetsManager(FlutterPlugin.FlutterPluginBinding flutterPluginBinding) {
+        binding = flutterPluginBinding;
+    }
+
 
     // https://flutter.dev/docs/development/ui/assets-and-images
     private AssetFileDescriptor getAssetsImage(String imagePath) {
         Log.i(TAG, "getAssetsImage: " + imagePath);
         AssetFileDescriptor fd = null;
         try {
-            AssetManager assetManager = mRegistrar.context().getAssets();
-            String key = mRegistrar.lookupKeyForAsset(imagePath);
+            AssetManager assetManager = binding.getApplicationContext().getAssets();
+            String key = FlutterInjector.instance().flutterLoader().getLookupKeyForAsset(imagePath);
             fd = assetManager.openFd(key);
         } catch (IOException e) {
             Log.e(TAG, "getAssetsImage error: " + e );
         }
         return fd;
     }
+
+
 
     public Bitmap open(String path)
     {

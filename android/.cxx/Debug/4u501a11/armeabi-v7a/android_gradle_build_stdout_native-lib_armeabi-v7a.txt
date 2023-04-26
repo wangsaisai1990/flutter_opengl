@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\flutter\opengl\flutter_opengl\android\.cxx\Debug\4u501a11\armeabi-v7a'
+ninja: no work to do.
